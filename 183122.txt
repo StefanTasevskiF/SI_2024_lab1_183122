@@ -1,0 +1,207 @@
+OVA E CELATA MOJA DOKUMENTACIJA
+
+User@DESKTOP-JH6O4M4 MINGW64 ~ (master)
+$ git remote add origin https://github.com/StefanTasevskiF/SI_2024_lab1_183122
+
+User@DESKTOP-JH6O4M4 MINGW64 ~ (master)
+$ git remote -v
+origin  https://github.com/StefanTasevskiF/SI_2024_lab1_183122 (fetch)
+origin  https://github.com/StefanTasevskiF/SI_2024_lab1_183122 (push)
+
+User@DESKTOP-JH6O4M4 MINGW64 ~ (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+User@DESKTOP-JH6O4M4 MINGW64 ~ (master)
+$ pwd
+/c/Users/User
+
+User@DESKTOP-JH6O4M4 MINGW64 ~ (master)
+$ cd ~/SI_2024_lab1_183122
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ pwd
+/c/Users/User/SI_2024_lab1_183122
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git remote -v
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git remote add ^C
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git remote -v
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git remote add https://github.com/StefanTasevskiF/SI_2024_lab1_183122
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git remote add origin https://github.com/StefanTasevskiF/SI_2024_lab1_183122
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git remote -v
+origin  https://github.com/StefanTasevskiF/SI_2024_lab1_183122 (fetch)
+origin  https://github.com/StefanTasevskiF/SI_2024_lab1_183122 (push)
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git add README.md
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ got commit -m "Initial commit"
+bash: got: command not found
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git commit -m "Initial commit"
+[master (root-commit) f5e670f] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git add SILab1Main.java
+warning: LF will be replaced by CRLF in SILab1Main.java.
+The file will have its original line endings in your working directory
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git add SILab1_1.java
+warning: LF will be replaced by CRLF in SILab1_1.java.
+The file will have its original line endings in your working directory
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git add SILab1_2.java
+warning: LF will be replaced by CRLF in SILab1_2.java.
+The file will have its original line endings in your working directory
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ list
+bash: list: command not found
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git tree
+git: 'tree' is not a git command. See 'git --help'.
+
+The most similar command is
+        mktree
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ tree
+bash: tree: command not found
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git --help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone             Clone a repository into a new directory
+   init              Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add               Add file contents to the index
+   mv                Move or rename a file, a directory, or a symlink
+   restore           Restore working tree files
+   rm                Remove files from the working tree and from the index
+   sparse-checkout   Initialize and modify the sparse-checkout
+
+examine the history and state (see also: git help revisions)
+   bisect            Use binary search to find the commit that introduced a bug
+   diff              Show changes between commits, commit and working tree, etc
+   grep              Print lines matching a pattern
+   log               Show commit logs
+   show              Show various types of objects
+   status            Show the working tree status
+
+grow, mark and tweak your common history
+   branch            List, create, or delete branches
+   commit            Record changes to the repository
+   merge             Join two or more development histories together
+   rebase            Reapply commits on top of another base tip
+   reset             Reset current HEAD to the specified state
+   switch            Switch branches
+   tag               Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch             Download objects and refs from another repository
+   pull              Fetch from and integrate with another repository or a local branch
+   push              Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git branch
+* master
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   SILab1Main.java
+        new file:   SILab1_1.java
+        new file:   SILab1_2.java
+
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git commit -m "Add starter code"
+[master 2194e63] Add starter code
+ 3 files changed, 47 insertions(+)
+ create mode 100644 SILab1Main.java
+ create mode 100644 SILab1_1.java
+ create mode 100644 SILab1_2.java
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git push origin master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 1.11 KiB | 569.00 KiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/StefanTasevskiF/SI_2024_lab1_183122
+ * [new branch]      master -> master
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git log
+commit 2194e63b3024b0e0d64e57ae318741a5808de519 (HEAD -> master, origin/master)
+Author: StefanTasevski1 <63559595+StefanTasevski1@users.noreply.github.com>
+Date:   Sat Apr 13 02:02:53 2024 +0200
+
+    Add starter code
+
+commit f5e670f779f5299b0fc39b166bb3f95d8d48c8c0
+Author: StefanTasevski1 <63559595+StefanTasevski1@users.noreply.github.com>
+Date:   Sat Apr 13 01:57:26 2024 +0200
+
+    Initial commit
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git add logs.txt
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ ^C
+
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)

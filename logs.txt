@@ -1,0 +1,13 @@
+User@DESKTOP-JH6O4M4 MINGW64 ~/SI_2024_lab1_183122 (master)
+$ git log
+commit 2194e63b3024b0e0d64e57ae318741a5808de519 (HEAD -> master, origin/master)
+Author: StefanTasevski1 <63559595+StefanTasevski1@users.noreply.github.com>
+Date:   Sat Apr 13 02:02:53 2024 +0200
+
+    Add starter code
+
+commit f5e670f779f5299b0fc39b166bb3f95d8d48c8c0
+Author: StefanTasevski1 <63559595+StefanTasevski1@users.noreply.github.com>
+Date:   Sat Apr 13 01:57:26 2024 +0200
+
+    Initial commit
